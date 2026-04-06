@@ -1,0 +1,55 @@
+/* Custom variables for colors */
+:root {
+  --bg-base: #05050A;
+  --surface-main: #10101A;
+  --surface-alt: #1A1A2E;
+  --primary: #00FF41;
+  --secondary: #00FFFF;
+  --accent-warning: #FFA500;
+  --accent-danger: #FF003C;
+  --text-main: #E0E0E0;
+  --text-muted: #8892B0;
+  --border-color: #00FFFF;
+}
+
+/* Utility classes for the color palette */
+.bg-bg-base { background-color: var(--bg-base) !important; }
+.bg-surface-main { background-color: var(--surface-main) !important; }
+.bg-surface-alt { background-color: var(--surface-alt) !important; }
+.bg-primary { background-color: var(--primary) !important; }
+.bg-secondary { background-color: var(--secondary) !important; }
+.bg-accent-warning { background-color: var(--accent-warning) !important; }
+.bg-accent-danger { background-color: var(--accent-danger) !important; }
+
+.text-bg-base { color: var(--bg-base) !important; }
+.text-text-main { color: var(--text-main) !important; }
+.text-text-muted { color: var(--text-muted) !important; }
+.text-primary { color: var(--primary) !important; }
+.text-secondary { color: var(--secondary) !important; }
+.text-accent-warning { color: var(--accent-warning) !important; }
+.text-accent-danger { color: var(--accent-danger) !important; }
+
+.border-primary { border-color: var(--primary) !important; }
+.border-secondary { border-color: var(--secondary) !important; }
+.border-accent-warning { border-color: var(--accent-warning) !important; }
+.border-accent-danger { border-color: var(--accent-danger) !important; }
+.border-text-muted { border-color: var(--text-muted) !important; }
+.border-text-muted\/30 { border-color: rgba(136, 146, 176, 0.3) !important; }
+.border-secondary\/30 { border-color: rgba(0, 255, 255, 0.3) !important; }
+.border-secondary\/50 { border-color: rgba(0, 255, 255, 0.5) !important; }
+.border-primary\/50 { border-color: rgba(0, 255, 65, 0.5) !important; }
+
+/* Background opacity variants */
+.bg-primary\/10 { background-color: rgba(0, 255, 65, 0.1) !important; }
+.bg-bg-base\/80 { background-color: rgba(5, 5, 10, 0.8) !important; }
+.bg-bg-base\/60 { background-color: rgba(5, 5, 10, 0.6) !important; }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 80px;
+}
