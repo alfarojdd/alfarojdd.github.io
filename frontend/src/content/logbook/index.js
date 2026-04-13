@@ -1,5 +1,5 @@
-import understandingNerfPost from "./posts/understanding-nerf";
+import impostorSyndrome from "./posts/impostor_syndrome";
 
 export const logbookPosts = [
-  understandingNerfPost
+  impostorSyndrome
 ];
