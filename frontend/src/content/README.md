@@ -17,6 +17,7 @@ Edit section content here instead of touching React components.
   - `items/`: one file per mission card.
 - `logbook/`
   - `posts/`: one file per logbook post.
+    Optional `entryStatus` lets each post define its sidebar status card (`label`, `title`, `description`).
 - `repositories/`
   - `items/`: one file per repository card.
 - `journey/`

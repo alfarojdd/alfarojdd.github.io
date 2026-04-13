@@ -102,9 +102,9 @@ function App() {
             />
             <AboutSection aboutContent={aboutContent} />
             <ProjectsSection projects={missions} />
-            <BlogSection logbookPosts={logbookPosts} />
             <CodeSection repositories={repositories} />
             <ExperienceSection experiences={journeyEntries} />
+            <BlogSection logbookPosts={logbookPosts} />
           </>
         )}
       </main>

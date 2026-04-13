@@ -4,7 +4,7 @@ import SectionHeading from "@/components/site/SectionHeading";
 
 function ExperienceSection({ experiences }) {
   return (
-    <section id="experience" className="py-20 px-4" data-testid="experience-section" style={{ backgroundColor: "#05050A" }}>
+    <section id="experience" className="py-20 px-4" data-testid="experience-section" style={{ backgroundColor: "#10101A" }}>
       <div className="max-w-7xl mx-auto">
         <SectionHeading icon={Briefcase}>JOURNEY</SectionHeading>
 

@@ -4,7 +4,7 @@ import SectionHeading from "@/components/site/SectionHeading";
 
 function CodeSection({ repositories }) {
   return (
-    <section id="code" className="py-20 px-4" data-testid="code-section" style={{ backgroundColor: "#10101A" }}>
+    <section id="code" className="py-20 px-4" data-testid="code-section" style={{ backgroundColor: "#05050A" }}>
       <div className="max-w-7xl mx-auto">
         <SectionHeading icon={Code}>REPOSITORIES</SectionHeading>
 

@@ -4,7 +4,7 @@ const post = {
   title: "Impostor Syndrome: the internal struggle for validation",
   excerpt:
     "A reflection on the feeling of not being enough, constant comparison, and the invisible weight of impostor syndrome.",
-  image: "images/hero/hero_astronaut.jpeg",
+  image: "images/logbook/impostor/thinking.png",
   readTime: "2 MIN READ",
   tags: ["Reflection"],
   sections: [
@@ -25,7 +25,7 @@ const post = {
       heading: "Closing Transmission",
       body:
         "There are still days when that voice is there, questioning everything. But I have also learned that doubting yourself does not mean you have no value. Sometimes, it simply means that you deeply care about what you do. And perhaps real progress is not about no longer feeling insecure, but about continuing to build even while insecurity is still there.",
-    }
+    },
   ],
 };
 

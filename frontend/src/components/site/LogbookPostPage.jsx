@@ -53,17 +53,21 @@ function LogbookPostPage({ post }) {
             </div>
 
             <aside className="space-y-6">
-              <div className="hud-panel p-5 border-2" style={{ borderColor: "#00FF41" }}>
-                <p className="font-subheading text-xs mb-2 tracking-[0.25em]" style={{ color: "#8892B0" }}>
-                  ENTRY STATUS
-                </p>
-                <p className="font-heading text-lg" style={{ color: "#00FF41" }}>
-                  RESEARCH NOTES
-                </p>
-                <p className="font-body text-sm mt-3" style={{ color: "#8892B0" }}>
-                  Process notes, tradeoffs, references and results from the work documented in this entry.
-                </p>
-              </div>
+              {post.entryStatus ? (
+                <div className="hud-panel p-5 border-2" style={{ borderColor: "#00FF41" }}>
+                  <p className="font-subheading text-xs mb-2 tracking-[0.25em]" style={{ color: "#8892B0" }}>
+                    {post.entryStatus.label}
+                  </p>
+                  <p className="font-heading text-lg" style={{ color: "#00FF41" }}>
+                    {post.entryStatus.title}
+                  </p>
+                  {post.entryStatus.description ? (
+                    <p className="font-body text-sm mt-3" style={{ color: "#8892B0" }}>
+                      {post.entryStatus.description}
+                    </p>
+                  ) : null}
+                </div>
+              ) : null}
 
               <div className="hud-panel p-5 border-2" style={{ borderColor: "#00FFFF" }}>
                 <p className="font-subheading text-xs mb-3 tracking-[0.25em]" style={{ color: "#8892B0" }}>
